@@ -1,0 +1,1793 @@
+@media only screen and (min-width: 1224px) {
+  /* Desktop */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 770px) and (orientation: portrait) {
+  /* iPad Portrait */
+  .triangle{
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    animation: triangle 1000ms infinite ;
+  }
+  .text1{
+    position: absolute;
+    width: 100%;
+    font-family: "Formular";
+    font-size: 5vw;
+    left: 6%;
+    top: 45%;
+    color: white;
+  }
+  .text2{
+    position: absolute;
+    width: 100%;
+    font-family: "Formular";
+    font-size: 3.5vw;
+    left: 6%;
+    top: 51%;
+    color: white;
+  }
+  .text3{
+    position: absolute;
+    width: 100%;
+    font-family: "Formular";
+    font-size: 7vw;
+    left: 6%;
+    top: 68%;
+    color: #C52727;
+    cursor: pointer;
+  }
+  .vid1{
+    width: 220%;
+    position: relative;
+    overflow: hidden;
+    top: 0%;
+    left: -80%;
+  }
+  .logo{
+    width: 40%;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    cursor: pointer;
+    z-index: 6;
+  }
+  .sob{
+    position: absolute;
+    width: 100%;
+    font-size: 4.5vw;
+  text-align: right;
+    color: #C52727;
+    right: 1%;
+    top: 3.5%;
+    z-index: 5;
+  }
+  .about{
+    position: absolute;
+    width: 100%;
+    font-size: 4.5vw;
+  text-align: right;
+    color: #C52727;
+    right: 8%;
+    top: 8%;
+    z-index: 5;
+  }
+  .mag{
+    position: absolute;
+    width: 100%;
+    font-size: 4.5vw;
+  text-align: right;
+    color: #C52727;
+    right: 1%;
+    top: 13%;
+    z-index: 5;
+  }
+
+  .block{
+    background-color: #C52727;
+    width: 1%;
+    height: 9%;
+    left: 76%;
+    top: 13%;
+    position: absolute;
+    display: none;
+    z-index: 5;
+  }
+  .blocktwo{
+      background-color: white;
+      width: 1%;
+      height: 10%;
+      left: 76%;
+      top: 13%;
+      position: absolute;
+      display: none;
+      z-index: 5;
+  }
+  .concept{
+    position: absolute;
+    width: 100%;
+    font-size: 3vw;
+  text-align: right;
+    color: #C52727;
+    right: 1%;
+    top: 13%;
+    display: none;
+    z-index: 5;
+  }
+  .map{
+    position: absolute;
+    width: 100%;
+    font-size: 3vw;
+  text-align: right;
+    color: #C52727;
+    right: 8.8%;
+    top: 17%;
+    display: none;
+    z-index: 5;
+  }
+  .floors{
+    position: absolute;
+    width: 100%;
+    font-size: 3vw;
+  text-align: right;
+    color: #C52727;
+    right: 8%;
+    top: 21%;
+    display: none;
+    z-index: 5;
+  }
+
+
+  .block1{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 1%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block11{
+    width: 3%;
+    height: 30%;
+    left: 1%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block2{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 98.5%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block22{
+    width: 3%;
+    height: 30%;
+    left: 98.5%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block3{
+    display: none;
+    background-color: #C52727;
+    width: 1%;
+    height: 50%;
+    left: 49.5%;
+    top: 28%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block33{
+    display: none;
+    width: 3%;
+    height: 50%;
+    left: 49.5%;
+    top: 28%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block4{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 66%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block44{
+    width: 3%;
+    height: 30%;
+    left: 66%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block5{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 33%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block55{
+    width: 3%;
+    height: 30%;
+    left: 33%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block6{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 1%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block66{
+    width: 3%;
+    height: 30%;
+    left: 1%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block7{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 33%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block77{
+    display: none;
+    width: 3%;
+    height: 30%;
+    left: 33%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block777{
+    width: 3%;
+    height: 30%;
+    left: 33%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block8{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 98.5%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block88{
+    width: 3%;
+    height: 30%;
+    left: 98.5%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block9{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 66%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block99{
+    width: 3%;
+    height: 30%;
+    left: 66%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .p11{
+    height: 30.5%;
+    position: absolute;
+    top: 18.7%;
+    left: -80%;
+    transition: left 0.5s linear;
+         }
+  .p12{
+    height: 30.5%;
+    position: absolute;
+    top: 18.7%;
+    left: -2.5%;
+    }
+    .p111{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 2%;
+    }
+    .p33{
+      height: 30.5%;
+      position: absolute;
+      top: 18.7%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p34{
+      height: 30.5%;
+      position: absolute;
+      top: 18.7%;
+      left: 53%;
+          }
+    .p333{
+      text-align: right;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -1.5%;
+
+    }
+    .p55{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: -70%;
+      transition: left 0.5s linear;
+           }
+    .p56{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: -1%;
+          }
+
+    .p555{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 33.5%;
+    }
+
+    .p44{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p45{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: 53%;
+          }
+
+    .p444{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -34%;
+
+    }
+
+    .p66{
+      height: 30%;
+      position: absolute;
+      top: 59%;
+      left: -80%;
+      transition: left 0.5s linear;
+           }
+     .p67{
+       height: 30%;
+       position: absolute;
+       top: 59%;
+       left: -2%;
+           }
+    .p666{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 2%;
+    }
+
+    .p77{
+      height: 30%;
+      position: absolute;
+      top: 58.5%;
+      left: -80%;
+      transition: left 0.5s linear;
+           }
+     .p78{
+       height: 30%;
+       position: absolute;
+       top: 58.5%;
+       left: -2%;
+           }
+    .p777{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 34%;
+    }
+    .p222{
+      display: none;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 50%;
+    }
+    .p99{
+      height: 30%;
+      position: absolute;
+      top: 58.9%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p90{
+      height: 30%;
+      position: absolute;
+      top: 58.9%;
+      left: 54%;
+          }
+
+    .p999{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin-left: -34%;
+
+    }
+
+    .p88{
+      height: 30%;
+      position: absolute;
+      top: 59%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p89{
+      height: 30%;
+      position: absolute;
+      top: 59%;
+      left: 53.5%;
+          }
+
+    .p888{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -1.5%;
+
+    }
+    .descript1{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript2{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript3{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript4{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript5{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript6{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript7{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript8{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript9{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .pic1{
+      width: 30%;
+      position: absolute;
+      left: 10%;
+      top: 30%;
+      cursor: move;
+    }
+    .pic2{
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      top: 80%;
+      cursor: move;
+    }
+    .pic3{
+      width: 30%;
+      position: absolute;
+      left: 30%;
+      top: 45%;
+      cursor: move;
+    }
+    .pic4{
+      width: 30%;
+      position: absolute;
+      left: 20%;
+      top: 60%;
+      cursor: move;
+    }
+    .pic5{
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      cursor: move;
+    }
+    .pic6{
+      width: 30%;
+      position: absolute;
+      left: 40%;
+      top: 50%;
+      cursor: move;
+    }
+    .pic7{
+      width: 30%;
+      position: absolute;
+      left: 10%;
+      top: 80%;
+      cursor: move;
+    }
+    .pic8{
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      top: 30%;
+      cursor: move;
+    }
+    .descriptt{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+    }
+    .description{
+  display: none;
+    }
+    .floorp1, .floorp2, .floorp3, .floorp4, .floorp5, .floorp6, .floorp7{
+      font-size: 3vw;
+      top: 13%;
+    }
+    .wrapper {
+      top: 20%;
+      position: absolute;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 17% 17% 17% 17% 17%;
+    }
+    .box7{
+      overflow: hidden;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 6;
+    }
+    #b4{
+      width: 100%;
+      height: 100%;
+    }
+    html{
+      width: 100%;
+      height: 100%;
+    }
+    .rect1{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      left: 54%;
+      top: 20%;
+    }
+    .rect2{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      left: 1%;
+      top: 20%;
+    }
+    .rect3{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 60%;
+      left: 1%;
+    }
+    .rect4{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 60%;
+      left: 54%;
+    }
+    .rect5{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 100%;
+      left: 1%;
+    }
+    .rect6{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 100%;
+      left: 54%;
+    }
+    .rect7{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 140%;
+      left: 1%;
+    }
+    .rect8{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 140%;
+      left: 54%;
+    }
+    .rect9{
+      position: absolute;
+      width: 45%;
+      height: 35%;
+      top: 180%;
+      left: 1%;
+    }
+    .shtext{
+      position: absolute;
+      font-size: 4.5vw;
+      color: #C52727;
+      line-height: 4vw;
+      margin-top: 40%;
+      cursor: pointer;
+    }
+    .shprice{
+      font-size: 3vw;
+    }
+    .back{
+      position: absolute;
+      width: 100%;
+      font-size: 4.5vw;
+    text-align: right;
+      color: #C52727;
+      right: 1%;
+      top: 3.5%;
+    }
+    .descript{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+    }
+    .tut{
+      position: absolute;
+      font-size: 11vw;
+      color: #C52727;
+      line-height: 5vw;
+      top: 70%;
+      left:1%;
+    }
+    .tutprice{
+      font-size: 4.5vw;
+      line-height: 0vw;
+    }
+    .rect00{
+      position: absolute;
+      width: 98%;
+      height: 40%;
+      top: 19%;
+      left: 1%;
+    }
+    .tryblock{
+      display: none;
+    }
+    .tryblockk{
+      display: block;
+      background-color: #C52727;
+      position: absolute;
+      left: 1%;
+      top: 80%;
+      height: 5.5%;
+      width: 32%;
+    }
+    .buy{
+      position: absolute;
+      font-size: 4.5vw;
+      color: #000000;
+      left: 3%;
+      top: 82%;
+      cursor: pointer;
+    }
+    .try{
+      position: absolute;
+      font-size: 4.5vw;
+      color: #000000;
+      left: 3%;
+      top: 82%;
+      cursor: pointer;
+    }
+    .tryblock1{
+      display: block;
+      background-color: #C52727;
+      position: absolute;
+      left: 1%;
+      top: 80%;
+      height: 5.5%;
+      width: 40%;
+    }
+    .dc{
+      z-index: -1;
+      display: none;
+    }
+    .cartshm{
+      display: block;
+      position: absolute;
+      width: 12%;
+      left: 45%;
+      top: 80%;
+      cursor: pointer;
+    }
+  .carttshm{
+      display: none;
+      position: absolute;
+      width: 12%;
+      left: 45%;
+      top: 80%;
+      pointer-events: none;
+    }
+    .cartshm2{
+      display: block;
+      position: absolute;
+      width: 12%;
+      left: 37%;
+      top: 80%;
+      cursor: pointer;
+    }
+  .carttshm2{
+      display: none;
+      position: absolute;
+      width: 12%;
+      left: 37%;
+      top: 80%;
+      pointer-events: none;
+    }
+    .cart2{
+      display: block;
+      position: fixed;
+      width: 12%;
+      text-align: right;
+      right: 1%;
+      top: 89.5%;
+      cursor: pointer;
+    }
+    .cartt2{
+      display: none;
+      position: fixed;
+      width: 12%;
+      text-align: right;
+      right: 1%;
+      top: 89.5%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+
+@media only screen and (min-device-width: 410px) and (max-device-width: 420px) and (orientation: portrait) {
+  /* iPhone Portrait */
+/* html{
+  height: 100%;
+}
+  body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+#b1{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+} */
+  .triangle{
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    animation: triangle 1000ms infinite ;
+  }
+  .text1{
+    position: absolute;
+    width: 100%;
+    font-family: "Formular";
+    font-size: 5vw;
+    left: 10%;
+    top: 45%;
+    color: white;
+  }
+  .text2{
+    position: absolute;
+    width: 100%;
+    font-family: "Formular";
+    font-size: 4.5vw;
+    left: 10%;
+    top: 51%;
+    color: white;
+  }
+  .text3{
+    position: absolute;
+    width: 100%;
+    font-family: "Formular";
+    font-size: 7vw;
+    left: 10%;
+    top: 68%;
+    color: #C52727;
+    cursor: pointer;
+  }
+  .vid1{
+    width: 220%;
+    position: relative;
+    overflow: hidden;
+    top: 0%;
+    left: -80%;
+  }
+  .logo{
+    width: 40%;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    cursor: pointer;
+    z-index: 6;
+  }
+  .sob{
+    position: absolute;
+    width: 100%;
+    font-size: 4.5vw;
+  text-align: right;
+    color: #C52727;
+    right: 1%;
+    top: 3.5%;
+    z-index: 5;
+  }
+  .about{
+    position: absolute;
+    width: 100%;
+    font-size: 4.5vw;
+  text-align: right;
+    color: #C52727;
+    right: 8%;
+    top: 8%;
+    z-index: 5;
+  }
+  .mag{
+    position: absolute;
+    width: 100%;
+    font-size: 4.5vw;
+  text-align: right;
+    color: #C52727;
+    right: 1%;
+    top: 13%;
+    z-index: 5;
+  }
+
+  .block{
+    background-color: #C52727;
+    width: 1%;
+    height: 9%;
+    left: 76%;
+    top: 13%;
+    position: absolute;
+    display: none;
+    z-index: 5;
+  }
+  .blocktwo{
+      background-color: white;
+      width: 1%;
+      height: 10%;
+      left: 76%;
+      top: 13%;
+      position: absolute;
+      display: none;
+      z-index: 5;
+  }
+  .concept{
+    position: absolute;
+    width: 100%;
+    font-size: 3vw;
+  text-align: right;
+    color: #C52727;
+    right: 1%;
+    top: 13%;
+    display: none;
+    z-index: 5;
+  }
+  .map{
+    position: absolute;
+    width: 100%;
+    font-size: 3vw;
+  text-align: right;
+    color: #C52727;
+    right: 8.8%;
+    top: 17%;
+    display: none;
+    z-index: 5;
+  }
+  .floors{
+    position: absolute;
+    width: 100%;
+    font-size: 3vw;
+  text-align: right;
+    color: #C52727;
+    right: 8%;
+    top: 21%;
+    display: none;
+    z-index: 5;
+  }
+
+
+  .block1{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 1%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block11{
+    width: 3%;
+    height: 30%;
+    left: 1%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block2{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 98.5%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block22{
+    width: 3%;
+    height: 30%;
+    left: 98.5%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block3{
+    display: none;
+    background-color: #C52727;
+    width: 1%;
+    height: 50%;
+    left: 49.5%;
+    top: 28%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block33{
+    display: none;
+    width: 3%;
+    height: 50%;
+    left: 49.5%;
+    top: 28%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block4{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 66%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block44{
+    width: 3%;
+    height: 30%;
+    left: 66%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block5{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 33%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block55{
+    width: 3%;
+    height: 30%;
+    left: 33%;
+    top: 20%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block6{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 1%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block66{
+    width: 3%;
+    height: 30%;
+    left: 1%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block7{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 33%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block77{
+    display: none;
+    width: 3%;
+    height: 30%;
+    left: 33%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block777{
+    width: 3%;
+    height: 30%;
+    left: 33%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block8{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 98.5%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block88{
+    width: 3%;
+    height: 30%;
+    left: 98.5%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block9{
+    background-color: #C52727;
+    width: 1%;
+    height: 30%;
+    left: 66%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .block99{
+    width: 3%;
+    height: 30%;
+    left: 66%;
+    top: 60%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .p11{
+    height: 30.5%;
+    position: absolute;
+    top: 18.7%;
+    left: -80%;
+    transition: left 0.5s linear;
+         }
+  .p12{
+    height: 30.5%;
+    position: absolute;
+    top: 18.7%;
+    left: -2.5%;
+    }
+    .p111{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 2%;
+    }
+    .p33{
+      height: 30.5%;
+      position: absolute;
+      top: 18.7%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p34{
+      height: 30.5%;
+      position: absolute;
+      top: 18.7%;
+      left: 53%;
+          }
+    .p333{
+      text-align: right;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -1.5%;
+
+    }
+    .p55{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: -70%;
+      transition: left 0.5s linear;
+           }
+    .p56{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: -1%;
+          }
+
+    .p555{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 33.5%;
+    }
+
+    .p44{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p45{
+      height: 30%;
+      position: absolute;
+      top: 18.9%;
+      left: 53%;
+          }
+
+    .p444{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -34%;
+
+    }
+
+    .p66{
+      height: 30%;
+      position: absolute;
+      top: 59%;
+      left: -80%;
+      transition: left 0.5s linear;
+           }
+     .p67{
+       height: 30%;
+       position: absolute;
+       top: 59%;
+       left: -2%;
+           }
+    .p666{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 2%;
+    }
+
+    .p77{
+      height: 30%;
+      position: absolute;
+      top: 58.5%;
+      left: -80%;
+      transition: left 0.5s linear;
+           }
+     .p78{
+       height: 30%;
+       position: absolute;
+       top: 58.5%;
+       left: -2%;
+           }
+    .p777{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 34%;
+    }
+    .p222{
+      display: none;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 50%;
+    }
+    .p99{
+      height: 30%;
+      position: absolute;
+      top: 58.9%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p90{
+      height: 30%;
+      position: absolute;
+      top: 58.9%;
+      left: 54%;
+          }
+
+    .p999{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin-left: -34%;
+
+    }
+
+    .p88{
+      height: 30%;
+      position: absolute;
+      top: 59%;
+      left: 100%;
+      transition: left 0.25s linear;
+           }
+    .p89{
+      height: 30%;
+      position: absolute;
+      top: 59%;
+      left: 53.5%;
+          }
+
+    .p888{
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -1.5%;
+
+    }
+    .descript1{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript2{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript3{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript4{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript5{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript6{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript7{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript8{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .descript9{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+      display: none;
+    }
+    .pic1{
+      width: 30%;
+      position: absolute;
+      left: 10%;
+      top: 30%;
+      cursor: move;
+    }
+    .pic2{
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      top: 80%;
+      cursor: move;
+    }
+    .pic3{
+      width: 30%;
+      position: absolute;
+      left: 30%;
+      top: 45%;
+      cursor: move;
+    }
+    .pic4{
+      width: 30%;
+      position: absolute;
+      left: 20%;
+      top: 60%;
+      cursor: move;
+    }
+    .pic5{
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      cursor: move;
+    }
+    .pic6{
+      width: 30%;
+      position: absolute;
+      left: 40%;
+      top: 50%;
+      cursor: move;
+    }
+    .pic7{
+      width: 30%;
+      position: absolute;
+      left: 10%;
+      top: 80%;
+      cursor: move;
+    }
+    .pic8{
+      width: 30%;
+      position: absolute;
+      left: 50%;
+      top: 30%;
+      cursor: move;
+    }
+    .descriptt{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+    }
+    .description{
+display: none;
+    }
+    .floorp1, .floorp2, .floorp3, .floorp4, .floorp5, .floorp6, .floorp7{
+      font-size: 3vw;
+      top: 13%;
+    }
+    .wrapper {
+      top: 20%;
+      position: absolute;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 17% 17% 17% 17% 17%;
+    }
+    .box7{
+      overflow: hidden;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 6;
+    }
+    #b4{
+      width: 100%;
+      height: 100%;
+    }
+    html{
+      width: 100%;
+      height: 100%;
+    }
+    .rect1{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      left: 54%;
+      top: 20%;
+    }
+    .rect2{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      left: 1%;
+      top: 20%;
+    }
+    .rect3{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 45%;
+      left: 1%;
+    }
+    .rect4{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 45%;
+      left: 54%;
+    }
+    .rect5{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 70%;
+      left: 1%;
+    }
+    .rect6{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 70%;
+      left: 54%;
+    }
+    .rect7{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 95%;
+      left: 1%;
+    }
+    .rect8{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 95%;
+      left: 54%;
+    }
+    .rect9{
+      position: absolute;
+      width: 45%;
+      height: 20%;
+      top: 120%;
+      left: 1%;
+    }
+    .shtext{
+      position: absolute;
+      font-size: 4.5vw;
+      color: #C52727;
+      line-height: 4vw;
+      margin-top: 40%;
+      cursor: pointer;
+    }
+    .shprice{
+      font-size: 3vw;
+    }
+    .back{
+      position: absolute;
+      width: 100%;
+      font-size: 4.5vw;
+    text-align: right;
+      color: #C52727;
+      right: 1%;
+      top: 3.5%;
+    }
+    .descript{
+      position: absolute;
+      width: 100%;
+      font-size: 3vw;
+      color: white;
+      left: 1%;
+      top: 13%;
+      pointer-events: none;
+    }
+    .tut{
+      position: absolute;
+      font-size: 11vw;
+      color: #C52727;
+      line-height: 5vw;
+      top: 70%;
+      left:1%;
+    }
+    .tutprice{
+      font-size: 4.5vw;
+      line-height: 0vw;
+    }
+    .rect00{
+      position: absolute;
+      width: 98%;
+      height: 40%;
+      top: 19%;
+      left: 1%;
+    }
+    .tryblock{
+      display: none;
+    }
+    .tryblockk{
+      display: block;
+      background-color: #C52727;
+      position: absolute;
+      left: 1%;
+      top: 80%;
+      height: 5.5%;
+      width: 32%;
+    }
+    .buy{
+      position: absolute;
+      font-size: 4.5vw;
+      color: #000000;
+      left: 3%;
+      top: 82%;
+      cursor: pointer;
+    }
+    .try{
+      position: absolute;
+      font-size: 4.5vw;
+      color: #000000;
+      left: 3%;
+      top: 82%;
+      cursor: pointer;
+    }
+    .tryblock1{
+      display: block;
+      background-color: #C52727;
+      position: absolute;
+      left: 1%;
+      top: 80%;
+      height: 5.5%;
+      width: 40%;
+    }
+    .dc{
+      z-index: -1;
+      display: none;
+    }
+    .cartshm{
+      display: block;
+      position: absolute;
+      width: 12%;
+      left: 45%;
+      top: 80%;
+      cursor: pointer;
+    }
+  .carttshm{
+      display: none;
+      position: absolute;
+      width: 12%;
+      left: 45%;
+      top: 80%;
+      pointer-events: none;
+    }
+    .cartshm2{
+      display: block;
+      position: absolute;
+      width: 12%;
+      left: 37%;
+      top: 80%;
+      cursor: pointer;
+    }
+  .carttshm2{
+      display: none;
+      position: absolute;
+      width: 12%;
+      left: 37%;
+      top: 80%;
+      pointer-events: none;
+    }
+    .cart2{
+      display: block;
+      position: fixed;
+      width: 12%;
+      text-align: right;
+      right: 1%;
+      top: 89.5%;
+      cursor: pointer;
+    }
+    .cartt2{
+      display: none;
+      position: fixed;
+      width: 12%;
+      text-align: right;
+      right: 1%;
+      top: 89.5%;
+    }
+    /* .sobb{
+      display: block;
+      position: fixed;
+      width: 100%;
+      font-size: 4.5vw;
+    text-align: right;
+      color: #C52727;
+      right: 1%;
+      top: 3.5%;
+      z-index: 5;
+    }
+    .aboutt{
+      display: none;
+    }
+    .magg{
+      display: none;
+    } */
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
